@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test_chrome(failed)" parallel="tests">
+    <classes>
+      <class name="com.Fareye.main.ChromeIntialise">
+        <methods>
+          <include name="max"/>
+          <include name="ChromeInit"/>
+          <include name="InitProperties"/>
+        </methods>
+      </class> <!-- com.Fareye.main.ChromeIntialise -->
+    </classes>
+  </test> <!-- Test_chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

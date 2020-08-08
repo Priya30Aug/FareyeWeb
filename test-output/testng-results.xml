@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="116727" started-at="2020-05-28T15:43:10Z" finished-at="2020-05-28T15:45:07Z">
+    <groups>
+    </groups>
+    <test name="Test_firefox" duration-ms="116727" started-at="2020-05-28T15:43:10Z" finished-at="2020-05-28T15:45:07Z">
+      <class name="com.Fareye.main.firefoxIntialise">
+        <test-method status="PASS" signature="firefoxinit()[pri:0, instance:com.Fareye.main.firefoxIntialise@4f7d0008]" name="firefoxinit" is-config="true" duration-ms="116715" started-at="2020-05-28T15:43:10Z" finished-at="2020-05-28T15:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxinit -->
+      </class> <!-- com.Fareye.main.firefoxIntialise -->
+      <class name="com.Fareye.main.BaseClass">
+        <test-method status="PASS" signature="InitProperties()[pri:0, instance:com.Fareye.main.BaseClass@553f17c]" name="InitProperties" is-config="true" duration-ms="19" started-at="2020-05-28T15:43:10Z" finished-at="2020-05-28T15:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitProperties -->
+      </class> <!-- com.Fareye.main.BaseClass -->
+    </test> <!-- Test_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
